@@ -2,6 +2,8 @@ import React, {Suspense} from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import data from './data'
 
+import './style.scss'
+
 const Routes = (props) => {
     return (
         <Router>

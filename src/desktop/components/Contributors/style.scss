@@ -1,0 +1,32 @@
+.contributors{
+    width: 100%;
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        color:rgb(162,0,0);
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .container{
+        margin:auto;
+    }
+    .individual{
+        width: 400px;
+        text-align: center;
+        margin:auto;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .name{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .detail{
+            margin-top: 20px;
+        }
+    }
+}
