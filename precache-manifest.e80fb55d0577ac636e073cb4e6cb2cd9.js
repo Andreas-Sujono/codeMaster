@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4621c809dc6c745ef40fe5a25e55071c",
+    "revision": "a7ad62d06fe3629b180b90fa6e42b584",
     "url": "/codeMaster/index.html"
   },
   {
-    "revision": "eec5dd30d372bcc55913",
-    "url": "/codeMaster/static/css/2.8d32d774.chunk.css"
+    "revision": "b146cca705573eac75a2",
+    "url": "/codeMaster/static/css/2.089b2910.chunk.css"
   },
   {
     "revision": "fe641f2ae9e08814a7b0",
     "url": "/codeMaster/static/css/main.d20cf6ae.chunk.css"
   },
   {
-    "revision": "eec5dd30d372bcc55913",
+    "revision": "b146cca705573eac75a2",
     "url": "/codeMaster/static/js/2.bd6abb16.chunk.js"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/js/main.92f26a3c.chunk.js"
   },
   {
-    "revision": "9497b5ccabb59d5bb56e",
-    "url": "/codeMaster/static/js/runtime-main.2064c985.js"
+    "revision": "6a0fa1d36f934563d5c0",
+    "url": "/codeMaster/static/js/runtime-main.c1b9b53d.js"
   },
   {
     "revision": "9f719c7e1c98ddfc6147c2456d686cdb",
