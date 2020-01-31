@@ -5,6 +5,7 @@
     background-color: rgba(108,108,108,0.35);
     margin:0;
     padding:0;
+    position: relative;
 
     .leftContent{
         img{
@@ -29,6 +30,16 @@
         }
         ul li a{
             color: white;
+        }
+    }
+    .collapsableIcon{
+        width:100%;
+        position: relative;
+        display: none;
+        .collapseIcon{
+            position: absolute;
+            right:0;
+            top:10px;
         }
     }
 }

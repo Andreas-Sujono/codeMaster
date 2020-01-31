@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 
 import './style.scss'
 import logo from 'assets/logo.png'
+import TocIcon from '@material-ui/icons/Toc';
 
 class TopNav extends Component{
     render(){
@@ -19,6 +20,10 @@ class TopNav extends Component{
                         <li> <a href="#">Github</a></li>
                         <li> <a href="#">Contact</a></li>
                     </ul> 
+                </div>
+
+                <div class="collapsableIcon col">
+                    <div class="collapseIcon" > <TocIcon fontSize="large" onClick={ this.props.handleCollapse }/> </div>
                 </div>
             </div>
         );   

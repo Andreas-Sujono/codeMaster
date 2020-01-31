@@ -1,0 +1,80 @@
+@media Screen and (max-width:600px){
+    .homepage{
+        .firstPage{
+            .topNav .leftContent img{
+                width: 80px;
+            }
+            header h1{
+                font-size: 30px;
+            }
+            header .subheading{
+                font-size: 24px;
+            }
+            .getStartedButton button{
+                width: 150px;
+                height:40px;
+                font-size: 18px;
+            }
+        }
+
+        .subscription{
+            .topHeader h1{font-size: 28px;}
+            .card{
+                width: 250px;
+                height: 400px;
+                .topHeader{
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+                img{
+                    width: 100px;
+                    height:100px;
+                }
+            
+                .cardContent{
+                    font-size: 15px;
+                }
+            
+                button{
+                    font-size: 20px;
+                    width: 150px;
+                }
+            }
+        }
+
+        .services{
+            h1{
+                font-size: 28px;
+            }
+            .imageLibrary img{
+                max-width: 80px;
+                max-height: 80px;
+            }
+        }
+        .contributors{
+            h1{
+                font-size: 28px;
+            }
+            .individual{
+                width: 250px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+                .name{
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                .detail{
+                    margin-top: 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+        
+    }
+
+}

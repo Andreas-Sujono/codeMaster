@@ -27,7 +27,7 @@ const imageList2 = [
 const imageList3 = [
     scikitLearn,dataStructure,
 ]
-
+const fullList = [...imageList1,...imageList2,...imageList3]
 
 
 const Services = (props) => {
@@ -38,21 +38,7 @@ const Services = (props) => {
 
             <div class="container">
                 <div class="imageLibrary row">
-                    {imageList1.map(img => (
-                        <div class="imgContainer col">
-                            <img src={img}  />
-                        </div>
-                    ))}
-                </div>
-                <div class="imageLibrary row">
-                    {imageList2.map(img => (
-                        <div class="imgContainer col">
-                            <img src={img}  />
-                        </div>
-                    ))}
-                </div>
-                <div class="imageLibrary row">
-                    {imageList3.map(img => (
+                    {fullList.map(img => (
                         <div class="imgContainer col">
                             <img src={img}  />
                         </div>
