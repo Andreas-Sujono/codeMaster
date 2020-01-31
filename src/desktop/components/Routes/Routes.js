@@ -1,12 +1,12 @@
 import React, {Suspense} from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter,Route, Switch} from 'react-router-dom'
 import data from './data'
 
 import './style.scss'
 
 const Routes = (props) => {
     return (
-        <Router>
+        <HashRouter>
         <div className="route">
             <Suspense fallback={ <div>Loading</div> }>
                 <Switch>
@@ -16,7 +16,7 @@ const Routes = (props) => {
                 </Switch>
             </Suspense>
         </div>
-    </Router>
+    </HashRouter>
     )
 }
 
