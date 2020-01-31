@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/codeMaster/static/css/main.d20cf6ae.chunk.css",
-    "main.js": "/codeMaster/static/js/main.4c01cb19.chunk.js",
-    "main.js.map": "/codeMaster/static/js/main.4c01cb19.chunk.js.map",
+    "main.js": "/codeMaster/static/js/main.36f51a01.chunk.js",
+    "main.js.map": "/codeMaster/static/js/main.36f51a01.chunk.js.map",
     "runtime-main.js": "/codeMaster/static/js/runtime-main.fa8a1204.js",
     "runtime-main.js.map": "/codeMaster/static/js/runtime-main.fa8a1204.js.map",
     "static/css/2.973ef32f.chunk.css": "/codeMaster/static/css/2.973ef32f.chunk.css",
     "static/js/2.b54f3755.chunk.js": "/codeMaster/static/js/2.b54f3755.chunk.js",
     "static/js/2.b54f3755.chunk.js.map": "/codeMaster/static/js/2.b54f3755.chunk.js.map",
-    "static/js/3.230aba9a.chunk.js": "/codeMaster/static/js/3.230aba9a.chunk.js",
-    "static/js/3.230aba9a.chunk.js.map": "/codeMaster/static/js/3.230aba9a.chunk.js.map",
+    "static/js/3.6f4e1260.chunk.js": "/codeMaster/static/js/3.6f4e1260.chunk.js",
+    "static/js/3.6f4e1260.chunk.js.map": "/codeMaster/static/js/3.6f4e1260.chunk.js.map",
     "static/js/4.6629c1db.chunk.js": "/codeMaster/static/js/4.6629c1db.chunk.js",
     "static/js/4.6629c1db.chunk.js.map": "/codeMaster/static/js/4.6629c1db.chunk.js.map",
     "static/js/5.7f33d985.chunk.js": "/codeMaster/static/js/5.7f33d985.chunk.js",
     "static/js/5.7f33d985.chunk.js.map": "/codeMaster/static/js/5.7f33d985.chunk.js.map",
     "index.html": "/codeMaster/index.html",
-    "precache-manifest.0e83294507b71d464f3e1fd72990bcbd.js": "/codeMaster/precache-manifest.0e83294507b71d464f3e1fd72990bcbd.js",
+    "precache-manifest.ab98d946f49ddd215db5899456e195cc.js": "/codeMaster/precache-manifest.ab98d946f49ddd215db5899456e195cc.js",
     "service-worker.js": "/codeMaster/service-worker.js",
     "static/css/2.973ef32f.chunk.css.map": "/codeMaster/static/css/2.973ef32f.chunk.css.map",
     "static/css/main.d20cf6ae.chunk.css.map": "/codeMaster/static/css/main.d20cf6ae.chunk.css.map",
-    "static/js/3.230aba9a.chunk.js.LICENSE": "/codeMaster/static/js/3.230aba9a.chunk.js.LICENSE",
+    "static/js/3.6f4e1260.chunk.js.LICENSE": "/codeMaster/static/js/3.6f4e1260.chunk.js.LICENSE",
     "static/media/Andreas.jpg": "/codeMaster/static/media/Andreas.9f719c7e.jpg",
     "static/media/dataStructure.png": "/codeMaster/static/media/dataStructure.5f0cc597.png",
     "static/media/matplotlib.png": "/codeMaster/static/media/matplotlib.4ec527a9.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fa8a1204.js",
-    "static/js/3.230aba9a.chunk.js",
+    "static/js/3.6f4e1260.chunk.js",
     "static/css/main.d20cf6ae.chunk.css",
-    "static/js/main.4c01cb19.chunk.js"
+    "static/js/main.36f51a01.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38fa8307dced517c9a89a5271f85a6bc",
+    "revision": "7ff120fac42d0b8fc2db089aa15a561e",
     "url": "/codeMaster/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/css/2.973ef32f.chunk.css"
   },
   {
-    "revision": "29bba093f9e2e50fc0b0",
+    "revision": "cae27f7abc7f5eaeb600",
     "url": "/codeMaster/static/css/main.d20cf6ae.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/js/2.b54f3755.chunk.js"
   },
   {
-    "revision": "962f30c62bf0720c4609",
-    "url": "/codeMaster/static/js/3.230aba9a.chunk.js"
+    "revision": "6dab90adf5dc399dbbc4",
+    "url": "/codeMaster/static/js/3.6f4e1260.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/codeMaster/static/js/3.230aba9a.chunk.js.LICENSE"
+    "url": "/codeMaster/static/js/3.6f4e1260.chunk.js.LICENSE"
   },
   {
     "revision": "0ded000d8868742b666f",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/js/5.7f33d985.chunk.js"
   },
   {
-    "revision": "29bba093f9e2e50fc0b0",
-    "url": "/codeMaster/static/js/main.4c01cb19.chunk.js"
+    "revision": "cae27f7abc7f5eaeb600",
+    "url": "/codeMaster/static/js/main.36f51a01.chunk.js"
   },
   {
     "revision": "94a9a57a48eb471bf232",
