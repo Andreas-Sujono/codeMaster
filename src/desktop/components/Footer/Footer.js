@@ -5,7 +5,7 @@ import logo from 'assets/logo.png'
 const Footer = (props) => {
 
     return(
-        <div className="footer">
+        <div className="footer" id="footer">
             <div class="row">
                 <div className="logoLeft col-md-2 col-12">
                     <img src={logo} />

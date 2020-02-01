@@ -6,9 +6,15 @@
         background-color: rgb(63, 63, 60);
         color:snow;
         text-align: center;
-        
+
         .collapseIndividual{
             margin-bottom: 5px;
+            list-style-type: none;
+            a{
+                color:white;
+                cursor: pointer;
+            }
+            a:hover{text-decoration: none;}
         }
     }
 }

@@ -7,9 +7,8 @@ const data = [
         component: lazy( () => import('desktop/components/Homepage'))
     },
     {
-        path: '/frontEnd',
-        exact: true,
-        component:lazy( () => import('desktop/components/FrontEnd'))
+        path: '/docs',
+        component:lazy( () => import('desktop/components/Docs'))
     },
 ];
 

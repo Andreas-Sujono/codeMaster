@@ -9,25 +9,35 @@ import LightSpeed from 'react-reveal/LightSpeed';
 
 import Card from 'shared/components/Card'
 class Subscription extends Component{
+    
+    constructor(){
+        super()
+        this.imageRef = React.createRef()
 
+    }
     state={
         animationClass:""
     }
+
     handleAnimationOnScroll = () => {
-        let imagePosY = this.refs.imageMid.clientHeight + 200
+        const imagePosY = this.imageRef.current.clientHeight + 500
         if(window.scrollY >= imagePosY){
             this.setState({animationClass:"startAnimation"})
-            window.removeEventListener('scroll', this.handleAnimationOnScroll)
         }
     }
     componentDidMount(){
+        console.log(this.imageRef)
         window.addEventListener('scroll', this.handleAnimationOnScroll)
         
     }
+    componentWillUnmount(){
+        window.removeEventListener('scroll', this.handleAnimationOnScroll)
+    }
     
     render(){
+        
         return (
-            <div class="subscription">
+            <div class="subscription" name="subscription">
                 <div class="topHeader">
                     <LightSpeed top>
                     <h1>Subscription</h1>
@@ -50,7 +60,7 @@ class Subscription extends Component{
                     </div> 
                 </div>
 
-                <div className="imageContainer" ref="imageMid">
+                <div className="imageContainer" ref={this.imageRef}>
                     <img src={midDivider} className={"midDivider " + this.state.animationClass} />
                 </div>
                 

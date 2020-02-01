@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/#/docs/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!--Bootstrap refrence-->
+    <link rel="stylesheet" href="./Code Master_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./Code Master_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./Code Master_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./Code Master_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+    <title>Code Master</title>
+  <style>
+    html,body,#root{
+      margin:0;
+      padding:0;
+      height: 100%;
+      width: 100%;
+    }
+  </style><style>.route {
+  width: 100%;
+  height: 100%; }
+</style><style>.app {
+  width: 100%;
+  height: 100%; }
+</style><script charset="utf-8" src="./Code Master_files/0.chunk.js"></script><script charset="utf-8" src="./Code Master_files/1.chunk.js"></script><script charset="utf-8" src="./Code Master_files/4.chunk.js"></script><style>.topNav {
+  color: white;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(108, 108, 108, 0.35);
+  margin: 0;
+  padding: 0;
+  position: relative; }
+  .topNav .leftContent img {
+    width: 100px;
+    height: auto; }
+  .topNav .rightContent {
+    position: relative; }
+    .topNav .rightContent ul {
+      position: absolute;
+      right: 10px;
+      margin-top: 20px; }
+    .topNav .rightContent ul li {
+      list-style-type: none;
+      display: inline;
+      padding-left: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px; }
+    .topNav .rightContent ul li a {
+      color: white; }
+  .topNav .collapsableIcon {
+    width: 100%;
+    position: relative;
+    display: none; }
+    .topNav .collapsableIcon .collapseIcon {
+      position: absolute;
+      right: 0;
+      top: 10px; }
+</style><style>.sideNav {
+  text-align: left;
+  padding-top: 30px; }
+  .sideNav .sideNavItem span {
+    float: right;
+    font-weight: bold; }
+</style><style></style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style></head>
+
+  
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="app"><div class="route"><div><div class="topNav fluid-container row" style="background-color: rgb(108, 108, 108);"><div class="leftContent col-4"><img src="data:image/png;base64,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"></div><div class="rightContent col"><ul><li> <a href="http://localhost:3000/#"> Home </a></li><li> <a href="http://localhost:3000/#">Get Started</a></li><li> <a href="http://localhost:3000/#">Docs</a></li><li> <a href="http://localhost:3000/#">Github</a></li><li> <a href="http://localhost:3000/#">Contact</a></li></ul></div><div class="collapsableIcon col"><div class="collapseIcon"> <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M3 9h14V7H3v2zm0 4h14v-2H3v2zm0 4h14v-2H3v2zm16 0h2v-2h-2v2zm0-10v2h2V7h-2zm0 6h2v-2h-2v2z"></path></svg> </div></div></div><div class="container"><div class="row"><div class="col-4"><div class="sideNav"><div class="sideNavItem">Getting Started <span> &gt; </span></div><div class="sideNavItem">Front-End <span> &gt; </span></div><div class="sideNavItem">Back-End <span> &gt; </span></div><div class="sideNavItem">Data Science <span> &gt; </span></div><div class="sideNavItem">Computer Science <span> &gt; </span></div></div></div><div class="col"></div></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./Code Master_files/bundle.js"></script><script src="./Code Master_files/2.chunk.js"></script><script src="./Code Master_files/main.chunk.js"></script>
+
+   <div id="4x" style="text-align:center!important;position:fixed!important;bottom:0;width:300px;height:70px;padding-top:35px;font-size:23px;display:none;background-color:#ff3f3f;z-index=5000!important;color:#fff">4x: Ad Buster Initiated</div>	<div id="increase" style="text-align:center!important;position:fixed!important;bottom:0;width:300px;height:70px;font-size:23px;display:none;background-color:#ff3f3f;z-index=5001!important;color:#fff;line-height:1.5em!important;">Speed Increased By 0.25x<br></div>	<div id="1x" style="text-align:center!important;position:fixed!important;bottom:0;width:300px;height:70px;padding-top:35px;font-size:23px;display:none;background-color:#ff3f3f;z-index=5002!important;color:#fff">Back To Normal Speed</div>	<div id="reduce" style="text-align:center!important;position:fixed!important;bottom:0;width:300px;height:70px;font-size:23px;display:none;background-color:#ff3f3f;z-index=5003!important;color:#fff;line-height:1.5em!important;">Speed Reduced By 0.25x<br></div></body></html>

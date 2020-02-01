@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class FrontEnd extends Component {
+class BackEnd extends Component {
     render() {
         return (
             <div>
-                <h1> Front End </h1>
+                <h2> BackEnd </h2>
             </div>
         );
     }
 }
 
-export default FrontEnd;
+export default BackEnd;

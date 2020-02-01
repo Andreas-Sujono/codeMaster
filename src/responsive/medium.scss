@@ -84,4 +84,17 @@
         
     }
 
+    .docs{
+        .topNav{
+            .rightContent{display: none;}
+            .collapseIcon{
+                display: block;
+            }
+            .collapsableIcon{
+                display: block;
+            }
+
+        }
+    }
+
 }

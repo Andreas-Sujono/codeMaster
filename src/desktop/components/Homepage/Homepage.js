@@ -7,6 +7,7 @@ import Contributors from 'desktop/components/Contributors'
 import Footer from 'desktop/components/Footer'
 
 import LightSpeed from 'react-reveal/LightSpeed';
+import { Link as ScrollLink} from 'react-scroll'
 
 import './style.scss'
 import  'responsive/medium.scss'
@@ -15,7 +16,7 @@ import  'responsive/small.scss'
 
 class Homepage extends Component {
     state = {
-        collapse:false,
+        collapse:true,
         collapseClass:'hidden'
     }
 
@@ -47,7 +48,16 @@ class Homepage extends Component {
 
                     
                     <div class="getStartedButton">
-                        <button><LightSpeed left>Get Started</LightSpeed></button>
+                        <ScrollLink
+                                activeClass="active"
+                                to="subscription"
+                                spy={true}
+                                smooth={true}
+                                offset={-40}
+                                duration= {500}
+                            >                            
+                            <button><LightSpeed left>Get Started</LightSpeed></button>
+                        </ScrollLink>
                     </div>
                 </div>
 
