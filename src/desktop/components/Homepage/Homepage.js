@@ -16,20 +16,6 @@ import  'responsive/small.scss'
 
 
 class Homepage extends Component {
-    state = {
-        collapse:true,
-        collapseClass:'hidden'
-    }
-
-    handleCollapse = () => {
-        console.log('clicked')
-        this.setState( prevState =>({
-            collapse:!prevState.collapse,
-            collapseClass:prevState.collapseClass == 'hidden'?'show':'hidden'
-        })
-        
-        )
-    }
 
     render() {
         const style={
@@ -38,8 +24,7 @@ class Homepage extends Component {
         return (
             <div class="homepage" >
                 <div class="firstPage" style={style}>
-                    <TopNav handleCollapse={this.handleCollapse.bind(this)}/>
-                    <CollapsableNav collapse={this.state.collapse} collapseClass={this.state.collapseClass}/>
+                    <TopNav/>
                     
                     <LightSpeed left>
                     <header>

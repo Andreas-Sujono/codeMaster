@@ -4,10 +4,26 @@ import {Link} from 'react-router-dom'
 import './style.scss'
 import logo from 'assets/logo.png'
 import TocIcon from '@material-ui/icons/Toc';
+import CollapsableNav from 'shared/components/CollapsableNav'
 
 import { Link as ScrollLink} from 'react-scroll'
 
 class TopNav extends Component{
+
+    state = {
+        collapse:true,
+        collapseClass:'hidden'
+    }
+
+    handleCollapse = () => {
+        console.log('clicked')
+        this.setState( prevState =>({
+            collapse:!prevState.collapse,
+            collapseClass:prevState.collapseClass == 'hidden'?'show':'hidden'
+        })
+        
+        )
+    }
 
     render(){
         const style = {
@@ -21,6 +37,7 @@ class TopNav extends Component{
                     ]
 
         return (
+            <>
             <div class="topNav fluid-container row" style={style}> 
                 <div class="leftContent col-4">
                     <img src={logo} />
@@ -60,9 +77,11 @@ class TopNav extends Component{
                 </div>
 
                 <div class="collapsableIcon col">
-                    <div class="collapseIcon" > <TocIcon fontSize="large" onClick={ this.props.handleCollapse }/> </div>
+                    <div class="collapseIcon" onClick={this.handleCollapse} > <TocIcon fontSize="large" onClick={ this.props.handleCollapse }/> </div>
                 </div>
             </div>
+            <CollapsableNav collapse={this.state.collapse} collapseClass={this.state.collapseClass}/>
+            </>
         );   
     }
 }

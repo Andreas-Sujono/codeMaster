@@ -3,6 +3,9 @@ import React from 'react';
 import FrontEnd from 'desktop/components/Docs/FrontEnd'
 import BackEnd from 'desktop/components/Docs/BackEnd'
 import GettingStarted from 'desktop/components/Docs/GettingStarted'
+import HTML from 'desktop/components/Docs/FrontEnd/HTML'
+import CSS from 'desktop/components/Docs/FrontEnd/CSS'
+
 import { Redirect } from 'react-router-dom';
 
 
@@ -17,21 +20,33 @@ const routes = [
           },
     },
     {
-        name:'GettingStarted',
+        name:'Getting Started',
         path: '/docs/GettingStarted',
-        strict: true,
+        exact: true,
         component: GettingStarted
     },
     {
-        name:'frontEnd',
+        name:'Front-End Track',
         path: '/docs/frontEnd',
-        strict: true,
-        component: FrontEnd
+        exact: true,
+        component: FrontEnd,
+        content: [{
+            name:'HTML',
+            path: '/docs/frontEnd/HTML',
+            exact: true,
+            component: HTML
+        },
+        {
+            name:'CSS',
+            path: '/docs/frontEnd/CSS',
+            exact: true,
+            component: CSS
+        },]
     },
     {
-        name:'backEnd',
+        name:'Back-End Track',
         path: '/docs/backEnd',
-        strict: true,
+        exact: true,
         component:BackEnd
     },
 ];

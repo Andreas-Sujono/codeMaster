@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.scss'
+import {Link} from 'react-router-dom'
 
 class SideNav extends Component {
 
@@ -8,12 +9,22 @@ class SideNav extends Component {
         return (
             <div className="sideNav">
                 {
-                    list.map (item => 
+                    
+                    list.slice(1).map (item => 
                         <div class="sideNavItem">
-                            {item} <span> > </span>
+                            <Link to={item.path}>{item.name}</Link> 
+                            <span> > </span>
+                            {
+                                item.content &&
+                                <ul className="sideNavList">
+                                    {item.content.map(item2 => <li> <Link to={item2.path}>{item2.name}</Link> </li>)}
+                                </ul>
+                            }
+                           
                         </div>    
                     )
                 }
+                <hr />
             </div>
         );
     }
