@@ -5,6 +5,7 @@ import Subscription from 'desktop/components/Subscription'
 import Services from 'desktop/components/Services'
 import Contributors from 'desktop/components/Contributors'
 import Footer from 'desktop/components/Footer'
+import BackgroundImage from 'assets/backgroundImage.jpg'
 
 import LightSpeed from 'react-reveal/LightSpeed';
 import { Link as ScrollLink} from 'react-scroll'
@@ -31,9 +32,12 @@ class Homepage extends Component {
     }
 
     render() {
+        const style={
+            backgroundImage:`url(${BackgroundImage})`,
+        }
         return (
-            <div class="homepage">
-                <div class="firstPage">
+            <div class="homepage" >
+                <div class="firstPage" style={style}>
                     <TopNav handleCollapse={this.handleCollapse.bind(this)}/>
                     <CollapsableNav collapse={this.state.collapse} collapseClass={this.state.collapseClass}/>
                     

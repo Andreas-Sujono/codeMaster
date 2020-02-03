@@ -8,8 +8,13 @@ class DocsTitleContent extends Component {
             <div className="docsTitleContent">
                 <h2> {title}</h2>
                 <div class="content">
-                    {content}
+                    {
+                        content.map( (item,idx) => 
+                            <div key={idx} dangerouslySetInnerHTML={{ __html: item}} /> 
+                        )
+                    }
                 </div>
+                <hr/>
 
             </div>
         );
@@ -18,7 +23,7 @@ class DocsTitleContent extends Component {
 
 DocsTitleContent.defaultProps= {
     title:'Title',
-    content:'Lorem ipsum dolor sit amet, consectetur ' +
+    content:['Lorem ipsum dolor sit amet, consectetur ' +
         'adipiscing elit, sed do eiusmod tempor' +
         ' incididunt ut labore et dolore magna aliqua. ' +
         'Ut enim ad minim veniam, quis nostrud' +
@@ -28,7 +33,7 @@ DocsTitleContent.defaultProps= {
         'cillum dolore eu fugiat nulla pariatur.' +
         ' Excepteur sint occaecat cupidatat non ' +
         'proident, sunt in culpa qui officia deserunt ' +
-        'mollit anim id est laborum.\n'
+        'mollit anim id est laborum.\n'],
 }
 
 export default DocsTitleContent;
