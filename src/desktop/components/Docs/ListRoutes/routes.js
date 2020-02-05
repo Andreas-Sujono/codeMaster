@@ -27,7 +27,7 @@ const routes = [
     },
     {
         name:'Front-End Track',
-        path: '/docs/frontEnd',
+        path: '/docs/frontEnd/',
         exact: true,
         component: FrontEnd,
         content: [{

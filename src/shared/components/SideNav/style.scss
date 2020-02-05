@@ -1,10 +1,40 @@
 .sideNav{
     text-align: left;
-    padding-top: 30px;
-    .sideNavItem{
-        span{
-            float: right;
-            font-weight: bold;
+    padding-top: 100px;
+    height: 100vh;
+    z-index: 2;
+    .collapseIcon{cursor: pointer;color: black;}
+
+    >.sideNavContent{
+        >.sideNavItem{
+            a{
+                color:black;
+            }
+            >span{
+                float: right;
+                font-weight: bold;
+            }
+            .active{
+                background-color: rgb(172, 71, 71);
+                a {color:white;}
+                padding:10px;
+            }
+            .inactive{
+                padding:10px;
+            }
         }
     }
+
+}
+
+.sideNavhidden{
+    width: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+.sideNavShow{
+    width: 100%;
+    min-width: 300px;
+    overflow: hidden;
+    transition: all 1s;
 }

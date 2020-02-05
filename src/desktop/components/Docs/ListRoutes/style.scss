@@ -1,10 +1,19 @@
 .docs{
-  .container{min-height: 500px;
-    .row  .leftContent{
-      margin:auto;
-      margin-top:0;
-      background-color: snow;
-    }
+  >.topNav{
+    
   }
-
+  >.sideNav{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgb(221, 221, 221);
+    color: white;
+  }
+  >.container{
+    min-height: 500px;
+    
+  }
+  .footer{
+    z-index: 10;
+  }
 }
