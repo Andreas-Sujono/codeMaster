@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "140355340d1ef3fd3688dd4d4bdbf9cc",
+    "revision": "ed11d0792f43852554e9fab4df3a00ce",
     "url": "/codeMaster/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/css/5.81700aba.chunk.css"
   },
   {
-    "revision": "fb9b6d14e26efb99cdc4",
+    "revision": "c4541dacdd8bfd6cb18c",
     "url": "/codeMaster/static/css/main.d20cf6ae.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codeMaster/static/js/7.fe791ccd.chunk.js"
   },
   {
-    "revision": "fb9b6d14e26efb99cdc4",
-    "url": "/codeMaster/static/js/main.5b437454.chunk.js"
+    "revision": "c4541dacdd8bfd6cb18c",
+    "url": "/codeMaster/static/js/main.fa1e1744.chunk.js"
   },
   {
     "revision": "b5e9fbb48ebc72e0c8b7",
