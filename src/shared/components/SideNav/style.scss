@@ -1,14 +1,24 @@
 .sideNav{
     text-align: left;
-    padding-top: 100px;
-    height: 100vh;
+    padding-top: 80px;
+    height: 400px;
     z-index: 2;
+
+    //handle position
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgb(221, 221, 221);
+    color: white;
+
     .collapseIcon{cursor: pointer;color: black;}
 
     >.sideNavContent{
         >.sideNavItem{
             a{
                 color:black;
+                padding-left: 25px;
+                padding-right: 50px;
             }
             >span{
                 float: right;
@@ -33,8 +43,6 @@
     transition: all 1s;
 }
 .sideNavShow{
-    width: 100%;
     min-width: 300px;
-    overflow: hidden;
     transition: all 1s;
 }

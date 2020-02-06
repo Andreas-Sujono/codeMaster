@@ -104,18 +104,38 @@ const content = [
             content: 
 `<img src="https://beeimg.com/images/h26180623163.jpg" 
     alt="dog picture" 
-    width=300 
-    height=300
+    width=150 
+    height=150
 />`
             },
         ]
     },
     {
-        title:'Do not forget the end tag',
-        detail:[],
-    },
-
+        title:'Attributes',
+        detail:[
+            {
+            type:'textContent',
+            content:''
+            }
+        ]
+    }
 
 ]
+/*
+template:
+{
+    title:'',
+    detail:[
+        {
+        type:'listContent',
+        content:[''],
+        },
+        {
+        type:'textContent',
+        content:'',
+        }
+    ]
+}
+*/
 
 export default content
