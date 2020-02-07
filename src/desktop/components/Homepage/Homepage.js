@@ -6,6 +6,7 @@ import Services from 'desktop/components/Services'
 import Contributors from 'desktop/components/Contributors'
 import Footer from 'desktop/components/Footer'
 import BackgroundImage from 'assets/backgroundImage.jpg'
+import ParticleAnimation from 'shared/components/ParticleAnimation'
 
 import LightSpeed from 'react-reveal/LightSpeed';
 import { Link as ScrollLink} from 'react-scroll'
@@ -25,6 +26,7 @@ class Homepage extends Component {
             <div class="homepage" >
                 <div class="firstPage" style={style}>
                     <TopNav/>
+                    <ParticleAnimation/>
                     
                     <LightSpeed left>
                     <header>

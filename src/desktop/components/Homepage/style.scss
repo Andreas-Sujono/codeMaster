@@ -10,6 +10,7 @@
     background-attachment: fixed;
     background-size: center;
     position: relative;
+    z-index: 2;
 
     header{
         position: absolute;
@@ -33,6 +34,7 @@
             height:80px;
             font-size: 30px;
             color:white;
+            z-index: 5;
         }
     }
     
