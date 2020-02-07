@@ -48,13 +48,25 @@ class Subscription extends Component{
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <Zoom top>
-                            <Card title="Basic" img={subscription1} button="Free" textList={['Get all the list of syntax of front-end Back end, machine learning, and basic of computer science']}/>
+                            <Card 
+                                title="Basic" 
+                                img={subscription1} 
+                                button="Free" 
+                                textList={['Get all the list of syntax of front-end Back end, machine learning, and basic of computer science']}
+                                link="/docs"
+                            />
                             </Zoom>
                         </div>
 
                         <div class="col-md-6 col-12">
                             <Zoom top>
-                            <Card title="Pro" img={subscription2} button="Soon" textList={['All benefits of Basic','Get access to online assessment','Get access to Tutorial Videos']}/>
+                            <Card 
+                                title="Pro" 
+                                img={subscription2} 
+                                button="Soon" 
+                                textList={['All benefits of Basic','Get access to online assessment','Get access to Tutorial Videos']}
+                                link="/"
+                            />
                             </Zoom>
                         </div>
                     </div> 

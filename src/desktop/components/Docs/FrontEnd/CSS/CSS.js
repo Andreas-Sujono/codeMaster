@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import ComingSoon from 'shared/components/ComingSoon'
 
 class CSS extends Component {
     render() {
         return (
             <div>
-                <h1>CSS</h1>
+                <ComingSoon/>
             </div>
         );
     }

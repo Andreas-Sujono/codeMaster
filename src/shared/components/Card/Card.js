@@ -1,8 +1,9 @@
 import React from 'react'
 import './style.scss'
+import {Link} from 'react-router-dom'
 
 const Card = (props) => {
-    const {title, img, textList, button} = props;
+    const {title, img, textList, button,link} = props;
 
     return (
         <div className="card" >
@@ -18,7 +19,7 @@ const Card = (props) => {
                 ))}
             </div>
 
-                <button>{button}</button>
+                <button><Link to={link}>{button}</Link></button>
         </div>
     )
 }
