@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.scss"],"names":[],"mappings":"AACA,YACI,UAAU,CACV,WAAY","file":"main.d20cf6ae.chunk.css","sourcesContent":["\n.app{\n    width:100%;\n    height: 100%;\n}\n"]}

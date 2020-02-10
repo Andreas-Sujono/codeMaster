@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,aACI,aAAa,CADjB,iBAGQ,WAAY,CACZ,aAAc,CACd,WACJ,CANJ,gBAQQ,iBAAkB,CAClB,WAAY,CARpB,YACI,UAAU,CACV,WAAY","file":"main.beb4fb36.chunk.css","sourcesContent":["\n.app{\n    width:100%;\n    height: 100%;\n}\n"]}
