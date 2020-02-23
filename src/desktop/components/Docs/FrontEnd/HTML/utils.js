@@ -27,7 +27,7 @@ const content = [
             {
                 type:'listContent',
                 content: ['Starts by open tag <TagName> and close by end tag </TagName>, ex: <p>....</p>, <div>....</div>',
-                'single tag by <TagName/>, ex: <hr/>, <br/>']
+                'Single tag by <TagName/>, ex: <hr/>, <br/>']
             }
         ]
     },

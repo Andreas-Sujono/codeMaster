@@ -1,6 +1,5 @@
 .sideNav{
     text-align: left;
-    padding-top: 80px;
     height: 400px;
     z-index: 2;
 
@@ -11,6 +10,13 @@
     background-color: rgb(221, 221, 221);
     color: white;
 
+    .sideNavLogo{
+        background-color:  rgba(108,108,108,0.9);
+        height: 70px;
+        img{
+            display: none;
+        }
+    }
     .collapseIcon{cursor: pointer;color: black;}
 
     >.sideNavContent{

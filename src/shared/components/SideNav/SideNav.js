@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.scss'
 import TocIcon from '@material-ui/icons/Toc';
 import SideNavList from './SideNavList'
+import logo from 'assets/logo.png'
 
 
 class SideNav extends Component {
@@ -37,6 +38,9 @@ class SideNav extends Component {
         return (
             <div className="sideNav" ref="sideNav">
 
+                <div className="sideNavLogo">
+                    <img src={logo}/>
+                </div>
                 <div class="collapseIcon" onClick={this.handleCollapse} > 
                     <TocIcon fontSize="large"/> 
                 </div>

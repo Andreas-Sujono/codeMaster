@@ -12,6 +12,7 @@ const content = [
             },
             {
                 type:'textContent',
+                intoHtml:true,
                 content:'<mark>CodeMaster</mark> is built by a university student during his second year in \
                 Nanyang Technology University'
             }

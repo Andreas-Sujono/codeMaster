@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 
 import { Route, Switch } from 'react-router-dom';
 
 import TopNav from 'shared/components/TopNav'
 import SideNav from 'shared/components/SideNav'
 import Footer from 'desktop/components/Footer'
-
-import TocIcon from '@material-ui/icons/Toc';
+import Loading from 'shared/components/Loading'
 
 import routes from './routes'
 
@@ -21,21 +20,23 @@ class ListRoutes extends Component {
                 <SideNav list={routes}/>
                 <div className="container">
                     <div className="rightContent">
-                        <Switch>
-                            {
-                                //handle main route
-                                routes.map( route => 
-                                    <Route key={route.path} {...route}/>
-                                )
-                            }
-                            {
-                                //handle subroute
-                                routes.map( route => 
-                                route.content &&
-                                route.content.map( route2 => <Route key={route2.path} {...route2}/>)       
-                            )  
-                            }
-                        </Switch>
+                        <Suspense fallback={Loading}>
+                            <Switch>
+                                {
+                                    //handle main route
+                                    routes.map( route => 
+                                        <Route key={route.path} {...route}/>
+                                    )
+                                }
+                                {
+                                    //handle subroute
+                                    routes.map( route => 
+                                    route.content &&
+                                    route.content.map( route2 => <Route key={route2.path} {...route2}/>)       
+                                )  
+                                }
+                            </Switch>
+                        </Suspense>
                     </div>
                 </div>
 
